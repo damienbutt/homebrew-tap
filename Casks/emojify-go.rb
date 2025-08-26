@@ -14,22 +14,22 @@ cask "emojify-go" do
   on_macos do
     on_intel do
       url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_darwin_amd64.tar.gz"
-      sha256 "a91bdc8e00eecae39579ef9448c156a1169e170a343213f07cc6ca39a1b4980f"
+      sha256 "5d10db43959e317ad5709c29d9dfc663108fd185e1ad6f4a4c2adf5a407118ea"
     end
     on_arm do
       url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_darwin_arm64.tar.gz"
-      sha256 "62eaba071856306080ada83809681373efe679430bd9c4c84baf346cc4421338"
+      sha256 "d2d49413e7a808d7b0f1119fa07456e8719afad1ec04cf2fe7254235881e3900"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_linux_amd64.tar.gz"
-      sha256 "a11a1ad05bd765636d4c4d05e42eb2d8317001ed5dcb929013d3b976d323931d"
+      sha256 "139d3a648fe0541a9333d17ec45df052c7d834f101d941f5131f639d0a84e0e4"
     end
     on_arm do
       url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_linux_arm64.tar.gz"
-      sha256 "be846a7204b7c058473f32a524681f54f6ae8e06074d265497a86adda8f5fb0e"
+      sha256 "bd950b9e75ae5efff7ff58e7df146fea76c6e6a9d8f1ac93e5e9cbd4bfe531d3"
     end
   end
 
