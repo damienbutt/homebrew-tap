@@ -2,7 +2,7 @@
 cask "emojify-go" do
   desc "Lighting fast Emoji conversion on the command line 😱"
   homepage "https://github.com/damienbutt/emojify-go"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "emojify-go" do
 
   on_macos do
     on_intel do
-      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_darwin_amd64.tar.gz"
-      sha256 "cc15e580839f2c076478b9251dc784af58ba013ed7c19a599df97b099b7edd81"
+      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.1/emojify-go_1.0.1_darwin_amd64.tar.gz"
+      sha256 "43162075b098bde3ff52ec793b30beab7e0c940fddce11ad246130a401c43323"
     end
     on_arm do
-      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_darwin_arm64.tar.gz"
-      sha256 "d9faeea23c0cbccc03080ceed46d2cb1427941a70fe0f20d375232f28295cb16"
+      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.1/emojify-go_1.0.1_darwin_arm64.tar.gz"
+      sha256 "06edaf826cecac39bade7739846909d86223a753356ac315c12748916d5579b2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_linux_amd64.tar.gz"
-      sha256 "5b7ed90811f9ce379203221b7f55f8501a2482eeba3d7c241138721c4e82876a"
+      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.1/emojify-go_1.0.1_linux_amd64.tar.gz"
+      sha256 "cd19270343030252696c41789ee60e3d468435000e411efaf70afee638874cb7"
     end
     on_arm do
-      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.0/emojify-go_1.0.0_linux_arm64.tar.gz"
-      sha256 "6ec9bcc61456a52ee7ee4e08f072d5764467813546c8f05d57e37d59821b027d"
+      url "https://github.com/damienbutt/emojify-go/releases/download/v1.0.1/emojify-go_1.0.1_linux_arm64.tar.gz"
+      sha256 "5351745556bbf262e57d4ac4d223f84050d313c516eb23e937daaac4cd9a49b8"
     end
   end
 
