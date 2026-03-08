@@ -14,22 +14,22 @@ cask "figlet" do
   on_macos do
     on_intel do
       url "https://github.com/damienbutt/figlet/releases/download/v#{version}/figlet_#{version}_darwin_amd64.tar.gz"
-      sha256 "27175367781b60fd9d47e7c6ef617f9863bfb9119d6062a1cfd48a078ff561ee"
+      sha256 "07fa5d1f209a7200b9ae22181e76659071ad87811263e8881669482bcfb013bc"
     end
     on_arm do
       url "https://github.com/damienbutt/figlet/releases/download/v#{version}/figlet_#{version}_darwin_arm64.tar.gz"
-      sha256 "105b4ff135882a912368f0e2fab5563353e8a6729bc3e8dea9bfcb5773b7fadf"
+      sha256 "3f690aca6be6e47e0a9052414505d227747b101c192e5a41b6ec8a626e485d00"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/damienbutt/figlet/releases/download/v#{version}/figlet_#{version}_linux_amd64.tar.gz"
-      sha256 "64fd36610c2489777f0a53b885748349df87098bdf4920cd062152ddba5fa3a6"
+      sha256 "5c8b3442aba29f19219baf9f64d68ba5f9e04689fb79f00a66ab42cba78b6480"
     end
     on_arm do
       url "https://github.com/damienbutt/figlet/releases/download/v#{version}/figlet_#{version}_linux_arm64.tar.gz"
-      sha256 "d19082969a48900a7134e2ee72092e6a2533a7a841018094d21ee0dc2fea573b"
+      sha256 "286fed6f9d352442ac11a5f6bd1f6510ae1c1fa0e6c109982f80288f954e24a1"
     end
   end
 
